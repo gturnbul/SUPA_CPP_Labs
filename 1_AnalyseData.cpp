@@ -17,7 +17,7 @@ int main() {
         cout << "could not open file" << endl;
         exit(1); //from the cstdlib library
     }
-    else{
+    else{ // read each line in and print out on terminal
         string line;
         while(getline(myInput, line)){
             cout << line << endl;
